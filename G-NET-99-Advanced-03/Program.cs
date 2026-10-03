@@ -101,7 +101,6 @@
             //Console.WriteLine(string.Join(", ", contacts.Values));
             #endregion
 
-
             #region Exercise 4: Unique Email Validator
 
             //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
@@ -127,7 +126,20 @@
 
             #endregion
 
+            #region Exercise 5: Print Queue Simulator
 
+            //Queue<string> printer = new Queue<string>();
+            //printer.Enqueue("Report.pdf");   
+            //printer.Enqueue("Invoice.pdf");   
+            //printer.Enqueue("Letter.docx");   
+            //printer.Enqueue("Resume.pdf");   
+            //printer.Enqueue("Photo.jpg");
+
+            //Console.WriteLine($"Number of documents in queue: {printer.Count}");
+            //Console.WriteLine($"Peek: {printer.Peek()}");
+            //Console.WriteLine($"Printing: {printer.Dequeue()}");
+            //Console.WriteLine(printer.TryDequeue(out string document) ? $"Dequeued: {document}" : "Failed to dequeue");
+            #endregion
 
 
 
