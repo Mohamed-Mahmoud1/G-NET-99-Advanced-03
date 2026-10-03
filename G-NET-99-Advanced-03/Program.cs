@@ -143,6 +143,32 @@
 
 
 
+            #region Exercise 6: Browser History (Undo)
+
+            //Stack<string> browserHistory = new Stack<string>();
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+            //Console.WriteLine($"Current Page: {browserHistory.Peek()}");
+            //Console.WriteLine($"Back:{browserHistory.Pop()}");
+            //Console.WriteLine($"Back:{browserHistory.Pop()}");
+            //Console.WriteLine($"Back:{browserHistory.Pop()}");
+            //Console.WriteLine($"Current Page: {browserHistory.Peek()}");
+            //Console.WriteLine(browserHistory.TryPop(out string page) ? $"Popped: {page}" : "Failed to pop");
+
+           
+
+
+
+
+            #endregion
+
+
+
+
+
 
 
         }
