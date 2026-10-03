@@ -41,8 +41,37 @@
             //    grades02.Add($"Grade: {grade}");
             //}
 
-        
+
             #endregion
+
+            #region Exercise 2: Leaderboard
+
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>()
+            //{
+            //    { 500, "Ahmed" },
+            //    { 200, "Sara" },
+            //    { 800, "Ali" },
+            //    { 350, "Mona" }
+            //};
+
+            //foreach (var entry in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {entry.Key}, Player: {entry.Value}");
+            //}
+
+            //Console.WriteLine($"First Key:{leaderboard[200]}");
+
+            //Console.WriteLine(leaderboard.ContainsKey(500));
+            //Console.WriteLine(leaderboard.TryGetValue(999, out string player));
+            //leaderboard.Remove(200);
+            //foreach (var entry in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {entry.Key}, Player: {entry.Value}");
+            //}
+            #endregion
+
+
+
 
         }
     }
