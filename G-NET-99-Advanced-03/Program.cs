@@ -70,7 +70,36 @@
             //}
             #endregion
 
+            #region Exercise 3: Phone Book
 
+            //Dictionary<string, string> contacts = new Dictionary<string, string>()
+            //{
+            //    { "omar", "011194842" },
+            //    { "sara", "0105487654" },
+            //    { "hazem", "015987845" },
+            //    { "mohamed", "01265989" }
+            //};
+
+
+            //contacts["yasser"] = "0121982286";
+
+            //try
+            //{
+            //    contacts.Add("omar", "011194842");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+
+            //Console.WriteLine(contacts.TryAdd("omar", "011194842"));
+
+            //Console.WriteLine(contacts["ahmed"]);
+
+            //Console.WriteLine(contacts.GetValueOrDefault("ahmed","Contact not found"));
+            //Console.WriteLine(string.Join(", ", contacts.Keys));
+            //Console.WriteLine(string.Join(", ", contacts.Values));
+            #endregion
 
 
         }
